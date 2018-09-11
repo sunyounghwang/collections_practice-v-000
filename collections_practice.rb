@@ -7,10 +7,10 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array) 
-  i = 0              
-  while i < array.size                        
-    yield(array[i])               
+  i = 0
+  while i < array.size
+    yield(array[i])
     i += 1
   end
-  array                           
+  array
 end
